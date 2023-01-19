@@ -24,6 +24,14 @@
   padding: 1em;
 }
 
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+body .container {
+  line-height: 150%;
+}
+
 .content {
   margin-left: 190px;
   border-left: 1px solid #d4d4d4;
