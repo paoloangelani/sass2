@@ -1,0 +1,27 @@
+//main: main.scss
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: $primary-color;
+}
+
+.header h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.header .social a {
+    padding: 0 5px;
+    color: white;
+}
+
+.left {
+    float: left;
+    width: 180px;
+    margin: 0;
+    padding: 1em;
+}
